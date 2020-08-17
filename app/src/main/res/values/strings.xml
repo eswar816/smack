@@ -10,4 +10,9 @@
     <string name="menu_home">Smack</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="tap_to_generate_user_avatar">Tap to generate user avatar</string>
+    <string name="generate_backgroung_color">generate backgroung color</string>
+    <string name="create_user">Create user</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
 </resources>

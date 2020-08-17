@@ -50,10 +50,10 @@
         android:layout_marginBottom="8dp"
         android:background="@android:drawable/screen_background_light_transparent"
         android:onClick="sendMsgBtnClicked"
-        android:tint="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_menu_send" />
+        app:srcCompat="@drawable/ic_menu_send"
+        app:tint="@color/teal_700" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/messageListView"

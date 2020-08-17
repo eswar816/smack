@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,8 +16,8 @@ class LoginActivity : AppCompatActivity() {
 
     }
 
-    fun loginCreateUserBtnClicked(view:View){
-        val createUserIntent=Intent(this,CreateUserActivity::class.java)
+    fun loginUserBtnClicked(view:View){
+        val createUserIntent=Intent(this, CreateUserActivity::class.java)
         startActivity(createUserIntent)
     }
 }
